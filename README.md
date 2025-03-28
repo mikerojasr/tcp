@@ -2,6 +2,9 @@
 Este proyecto implementa un servidor y cliente por medio del protocolo TCP con sockets, desarrollado en el lenguaje Python.
 El servidor permite la recepción de mensajes por el puerto 5000 de un cliente que establece la conexión y contesta el mensaje de vuelta en mayusculas, así mismo si recibe la palabra DESCONEXION, cierra la conexión con el cliente que envía este mensaje y se mantiene activo para nuevas conexiones.
 
+## Autor
+- Michael Rojas Rodríguez
+
 ## Requisitos
 - Python 3.x instalado.
 - Archivos `server.py` y `client.py` en el mismo directorio.
